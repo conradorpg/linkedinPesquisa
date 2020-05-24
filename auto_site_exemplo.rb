@@ -24,6 +24,10 @@ browser.send_keys :enter
 
 browser.li(data_row:"1").click
 
+browser.h2(class:"topcard__title").click
+
+browser.a(class:"more-jobs-link").click
+
 sleep 5
 
 puts 'Teste realizado com sucesso!'
